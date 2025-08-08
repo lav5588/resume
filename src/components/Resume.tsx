@@ -8,7 +8,11 @@ const textSize = "14px"
 
 const Resume = () => {
     return (
-        <div>
+        <div
+        style={{
+            margin:"2rem"
+        }} 
+        >
             <Heading />
 
             <SectionHeading
