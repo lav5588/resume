@@ -60,7 +60,7 @@ const Projects = () => {
                                 justifyContent: "space-between"
                             }}
                         >
-                            <h3>
+                            <h4>
                                 <span>{Project.title}</span>
                                 <a
                                     href={Project.link}
@@ -68,7 +68,7 @@ const Projects = () => {
                                         color: "rgb(70, 69, 150)"
                                     }}
                                 >[LINK]</a>
-                            </h3>
+                            </h4>
                             <p><i>{Project.time}</i></p>
                         </div>
                         <div>
@@ -262,13 +262,13 @@ const SectionHeading = ({ heading }: { heading: string }) => {
 
     return (
         <div style={{ position: "relative" }}>
-            <h2 ref={headingRef} style={{
+            <h3 ref={headingRef} style={{
                 display: "inline-block",
                 margin: 0,
                 color: "rgb(70, 69, 150)"
             }}>
                 {heading}
-            </h2>
+            </h3>
             <div
                 style={{
                     height: "1px",
@@ -308,11 +308,11 @@ const Heading = () => {
                     fontSize:textSize,
                 }}
             >
-                <h1
+                <h2
                     style={{
                         fontFamily: "Carlito"
                     }}
-                >{data.name}</h1>
+                >{data.name}</h2>
                 <p >{data.location}</p>
                 <div style={{
                     display: "flex",
