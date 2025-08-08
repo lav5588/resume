@@ -4,7 +4,7 @@ import { data } from "../constant/data"
 import { useRef, useState, useEffect } from "react";
 
 
-const textSize = "16px"
+const textSize = "14px"
 
 const Resume = () => {
     return (
@@ -49,6 +49,7 @@ const Projects = () => {
         <div 
             style={{
                 fontSize:textSize,
+                textAlign:"justify",
             }}
         >
 
@@ -111,6 +112,7 @@ const Certifications = () => {
         <div 
             style={{
                 fontSize:textSize,
+                textAlign:"justify",
             }}
         >
             {
@@ -154,6 +156,7 @@ const TechnicalSkills = () => {
             flexDirection: "column",
             gap: "-5px",
             fontSize:textSize,
+            textAlign:"justify",
         }} 
         >
             {data.technicalSkills.map((skill, index) => (
@@ -246,6 +249,7 @@ const ProffessionsalSummary = () => {
         <p
             style={{
                 fontSize:textSize,
+                textAlign:"justify",
             }} 
         >{data.proffesionalSummary}</p>
     )
