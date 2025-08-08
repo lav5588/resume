@@ -4,13 +4,11 @@ import { data } from "../constant/data"
 import { useRef, useState, useEffect } from "react";
 
 
-const textSize = "12px"
+const textSize = "14px"
 
 const Resume = () => {
     return (
-        <div style={{
-            margin: "1rem 0.5rem",
-        }}>
+        <div>
             <Heading />
 
             <SectionHeading
