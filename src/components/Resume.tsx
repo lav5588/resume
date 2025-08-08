@@ -1,30 +1,36 @@
 
 
+const Header = () => {
+    return (
+        <div className="flex justify-between items-start border-b pb-4">
+            <div>
+                <h1 className="text-3xl font-bold text-gray-800">Lav Kumar Yadav</h1>
+                <p className="text-gray-600">Ghaziabad, Uttar Pradesh</p>
+                <div className="mt-2 space-x-2 text-sm text-blue-600">
+                    <a href="https://www.linkedin.com/in/lav-kumar-yadav-b26853223/" target="_blank" rel="noreferrer">LinkedIn</a> |
+                    <a href="tel:+916392737953"> +91 6392737953</a> |
+                    <a href="mailto:lavkumar3000@gmail.com"> lavkumar3000@gmail.com</a> |
+                    <a href="https://github.com/lav5588" target="_blank" rel="noreferrer"> GitHub</a> |
+                    <a href="https://leetcode.com/u/lav5588/" target="_blank" rel="noreferrer"> Leetcode</a> |
+                    <a href="https://lav-kumar-yadav.onrender.com/" target="_blank" rel="noreferrer"> Portfolio</a>
+                </div>
+            </div>
+            {/* Passport Size Photo */}
+            <img
+                src="/LAV PROFILE.jpg" // replace with actual photo path
+                alt="Lav Kumar Yadav"
+                className="w-24 h-28 object-cover rounded border"
+            />
+        </div>
+
+    )
+}
+
 export default function Resume() {
     return (
         <div className="max-w-4xl mx-auto bg-white shadow-lg p-8 rounded-lg border border-gray-200">
             {/* Header */}
-            <div className="flex justify-between items-start border-b pb-4">
-                <div>
-                    <h1 className="text-3xl font-bold text-gray-800">Lav Kumar Yadav</h1>
-                    <p className="text-gray-600">Ghaziabad, Uttar Pradesh</p>
-                    <div className="mt-2 space-x-2 text-sm text-blue-600">
-                        <a href="https://www.linkedin.com/in/lav-kumar-yadav-b26853223/" target="_blank" rel="noreferrer">LinkedIn</a> |
-                        <a href="tel:+916392737953"> +91 6392737953</a> |
-                        <a href="mailto:lavkumar3000@gmail.com"> lavkumar3000@gmail.com</a> |
-                        <a href="https://github.com/lav5588" target="_blank" rel="noreferrer"> GitHub</a> |
-                        <a href="https://leetcode.com/u/lav5588/" target="_blank" rel="noreferrer"> Leetcode</a> |
-                        <a href="https://lav-kumar-yadav.onrender.com/" target="_blank" rel="noreferrer"> Portfolio</a>
-                    </div>
-                </div>
-                {/* Passport Size Photo */}
-                <img
-                    src="/LAV PROFILE.jpg" // replace with actual photo path
-                    alt="Lav Kumar Yadav"
-                    className="w-24 h-28 object-cover rounded border"
-                />
-            </div>
-
+            <Header />
             {/* Section: Professional Summary */}
             <section className="mt-6">
                 <h2 className="text-lg font-semibold border-b pb-1 mb-2 text-gray-800">Professional Summary</h2>
