@@ -56,11 +56,16 @@ const Projects = () => {
                                 justifyContent: "space-between"
                             }}
                         >
-                            <h2>
+                            <h3>
                                 <span>{Project.title}</span>
-                                <a href={Project.link}>[LINK]</a>
-                            </h2>
-                            <p>{Project.time}</p>
+                                <a
+                                    href={Project.link}
+                                    style={{
+                                        color: "rgb(70, 69, 150)"
+                                    }}
+                                >[LINK]</a>
+                            </h3>
+                            <p><i>{Project.time}</i></p>
                         </div>
                         <div>
                             {Project.points.map((point, idx) => (
@@ -71,11 +76,17 @@ const Projects = () => {
                                         alignItems: "start"
                                     }}
                                 >
-                                    <Dot style={{
-                                        color: "blue",
-                                        fontSize: "24px"
-                                    }}
-                                    />
+                                    <div
+                                        style={{
+                                            width: "30px"
+                                        }}
+                                    >
+                                        <Dot style={{
+                                            color: "rgb(70, 69, 150)",
+                                            fontSize: "24px"
+                                        }}
+                                        />
+                                    </div>
                                     <p>{point}</p>
                                 </div>
                             ))}
@@ -99,15 +110,22 @@ const Certifications = () => {
                             alignItems: "start"
                         }}
                     >
-                        <Dot style={{
-                            color: "blue",
-                            fontSize: "24px"
-                        }}
-                        />
+                        <div
+                            style={{
+                                width: "30px"
+                            }}
+                        >
+                            <Dot style={{
+                                color: "rgb(70, 69, 150)",
+                                fontSize: "24px"
+                            }}
+                            />
+                        </div>
                         <div>
                             <span>{cert.title}</span>
                             <a href={cert.link} style={{
-                                marginLeft: "4px"
+                                marginLeft: "4px",
+                                color: "rgb(70, 69, 150)"
                             }}>[LINK]</a>
                         </div>
                     </div>
@@ -126,11 +144,17 @@ const TechnicalSkills = () => {
                         display: "flex"
                     }}
                 >
-                    <Dot style={{
-                        color: "blue",
-                        fontSize: "24px"
-                    }}
-                    />
+                    <div
+                        style={{
+                            width: "30px"
+                        }}
+                    >
+                        <Dot style={{
+                            color: "rgb(70, 69, 150)",
+                            fontSize: "24px",
+                        }}
+                        />
+                    </div>
                     <div>
                         <span style={{
                             fontWeight: "bold"
@@ -154,10 +178,16 @@ const EducationsAndQualifications = () => {
                         display: "flex",
                         alignItems: "start"
                     }}>
-                        <Dot style={{
-                            color: "blue",
-                        }}
-                        />
+                        <div
+                            style={{
+                                width: "30px"
+                            }}
+                        >
+                            <Dot style={{
+                                color: "rgb(70, 69, 150)",
+                            }}
+                            />
+                        </div>
                         <div style={{
                             width: "100%",
                         }}>
@@ -172,7 +202,7 @@ const EducationsAndQualifications = () => {
                                     }}>{edu.degree} </span>
                                     <span>{edu.branch} :</span>
                                 </p>
-                                <p>{edu.time}</p>
+                                <p><i>{edu.time}</i></p>
                             </div>
                             <div style={{
                                 display: "flex",
@@ -180,7 +210,7 @@ const EducationsAndQualifications = () => {
                                 width: "100%"
                             }}>
                                 <p>{edu.institute}</p>
-                                <p>{edu.result}</p>
+                                <p><i>{edu.result}</i></p>
                             </div>
                         </div>
                     </div>
@@ -209,7 +239,11 @@ const SectionHeading = ({ heading }: { heading: string }) => {
 
     return (
         <div style={{ position: "relative" }}>
-            <h2 ref={headingRef} style={{ display: "inline-block", margin: 0 }}>
+            <h2 ref={headingRef} style={{
+                display: "inline-block",
+                margin: 0,
+                color: "rgb(70, 69, 150)"
+            }}>
                 {heading}
             </h2>
             <div
@@ -229,15 +263,32 @@ const SectionHeading = ({ heading }: { heading: string }) => {
 
 
 const Heading = () => {
+
+    const isImage = data.ProfilePic.trim() !== "";
+
     return (
         <div style={{
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: isImage ? "space-between" : "center",
             alignContent: "center",
-            gap: "16px"
+            gap: "16px",
+            marginBottom:!isImage?"2rem":""
         }} >
-            <div>
-                <h2 >{data.name}</h2>
+            <div
+                style={{
+                    display: !isImage ? "flex":"",
+                    flexDirection: "column",
+                    gap: "4px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    textAlign:!isImage ? "center":"start",
+                }}
+            >
+                <h1
+                    style={{
+                        fontFamily: "Carlito"
+                    }}
+                >{data.name}</h1>
                 <p >{data.location}</p>
                 <div style={{
                     display: "flex",
@@ -249,22 +300,29 @@ const Heading = () => {
                     {
                         data.socialMedia.map((item, index) => (
                             <div key={index}
-
+                                style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "4px",
+                                }}
                             >
                                 <a
                                     href={item.link}
 
                                     style={{
-                                        color: "rgb(70, 69, 150)"
+                                        color: "rgb(70, 69, 150)",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "4px"
                                     }}
-                                >{item.title} </a>
+                                >{item.icon} {item.title} </a>
                                 {index !== data.socialMedia.length - 1 && "| "}
                             </div>
                         ))
                     }
                 </div>
             </div>
-            <div>
+            {isImage && <div>
                 <img
                     src={data.ProfilePic}
                     alt="Profile Picture"
@@ -275,7 +333,7 @@ const Heading = () => {
                         borderRadius: "4px"
                     }}
                 />
-            </div>
+            </div>}
         </div>
     )
 }

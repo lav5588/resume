@@ -1,3 +1,5 @@
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
 
 
 interface DATA{
@@ -6,6 +8,7 @@ interface DATA{
     socialMedia: {
         title: string;
         link: string;
+        icon?:React.ReactNode;
     }[];
     ProfilePic: string;
     proffesionalSummary: string;
@@ -39,30 +42,35 @@ export const data:DATA = {
     socialMedia: [
         {
             title: "LinkedIn",
-            link: "https://www.linkedin.com/in/lav-kumar-yadav-b26853223/"
+            link: "https://www.linkedin.com/in/lav-kumar-yadav-b26853223/",
+            icon:<Linkedin  size={16}/>
         },
         {
             title: "+91 6392737953",
-            link: "tel:+916392737953"
+            link: "tel:+916392737953",
+            icon:<Phone size={16}/>
         },
         {
             title: "lavkumar3000@gmail.com",
-            link: "mailto:lavkumar3000@gmail.com"
+            link: "mailto:lavkumar3000@gmail.com",
+            icon: <Mail size={16}/>
         },
         {
             title: "GitHub",
-            link: "https://github.com/lav5588"
+            link: "https://github.com/lav5588",
+            icon: <Github size={16}/>
         },
         {
             title: "Leetcode",
-            link: "https://leetcode.com/u/lav5588/"
+            link: "https://leetcode.com/u/lav5588/",
+            icon: <SiLeetcode size={16}/>
         },
         {
             title: "Portfolio",
-            link: "https://lav-kumar-yadav.onrender.com/"
+            link: "https://lav-kumar-yadav.onrender.com/",
         }
     ],
-    ProfilePic: "/LAV PROFILE.jpg",
+    ProfilePic: "LAV PROFILE.jpg",
     proffesionalSummary: "Aspiring Full Stack Software Developer Trainee with hands-on experience building scalable applications using React.js, Node.js, and SQL/MongoDB. Strong understanding of full stack development, database management, and data structures. Passionate about learning, solving complex problems, and converting financial or technical concepts into practical, efficient code solutions.",
     educationAndQualification: [
         {
