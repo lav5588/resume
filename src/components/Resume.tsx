@@ -305,6 +305,7 @@ const Heading = () => {
                     justifyContent: "center",
                     alignItems: "center",
                     textAlign:!isImage ? "center":"start",
+                    fontSize:textSize,
                 }}
             >
                 <h1
