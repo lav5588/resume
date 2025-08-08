@@ -78,7 +78,8 @@ const Projects = () => {
                                 >
                                     <div
                                         style={{
-                                            width: "30px"
+                                            width: "30px",
+                                            height:"10px"
                                         }}
                                     >
                                         <Dot style={{
@@ -112,7 +113,8 @@ const Certifications = () => {
                     >
                         <div
                             style={{
-                                width: "30px"
+                                width: "30px",
+                                height:"10px"
                             }}
                         >
                             <Dot style={{
@@ -137,22 +139,28 @@ const Certifications = () => {
 
 const TechnicalSkills = () => {
     return (
-        <div>
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "-5px"
+        }} 
+        >
             {data.technicalSkills.map((skill, index) => (
                 <div key={index}
                     style={{
-                        display: "flex"
+                        display: "flex",
                     }}
                 >
                     <div
                         style={{
-                            width: "30px"
+                            width: "30px",
+                            height:"10px"
                         }}
                     >
                         <Dot style={{
                             color: "rgb(70, 69, 150)",
-                            fontSize: "24px",
                         }}
+                        size={24}
                         />
                     </div>
                     <div>
@@ -180,7 +188,8 @@ const EducationsAndQualifications = () => {
                     }}>
                         <div
                             style={{
-                                width: "30px"
+                                width: "30px",
+                                height:"10px"
                             }}
                         >
                             <Dot style={{
