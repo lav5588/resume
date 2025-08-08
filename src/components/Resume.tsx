@@ -4,7 +4,7 @@ import { data } from "../constant/data"
 import { useRef, useState, useEffect } from "react";
 
 
-const textSize = "14px"
+const textSize = "12px"
 
 const Resume = () => {
     return (
