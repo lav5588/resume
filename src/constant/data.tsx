@@ -71,8 +71,7 @@ export const data: DATA = {
         }
     ],
     ProfilePic: "LAV PROFILE.jpg",
-    proffesionalSummary:
-        "Aspiring Full Stack Software Developer with hands-on experience in designing, developing, testing, and deploying scalable applications using JavaScript, React.js, Node.js, and SQL/MongoDB. Skilled in Agile development practices, SDLC, and collaborative problem-solving. Strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Familiar with cloud technologies (AWS) and passionate about building efficient, secure, and user-focused solutions.",
+    proffesionalSummary: "Full Stack Developer skilled in JavaScript, React.js, Node.js, and SQL/MongoDB, with knowledge of Agile, SDLC, DSA, and OOP. Familiar with AWS and passionate about building efficient, secure, and user-focused applications.",
     educationAndQualification: [
         {
             degree: "B.Tech",
