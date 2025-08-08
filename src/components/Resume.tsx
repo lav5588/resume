@@ -2,9 +2,9 @@
 
 export default function Resume() {
     return (
-        <div className="bg-white p-8 rounded-lg border border-gray-200">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg p-8 rounded-lg border border-gray-200">
             {/* Header */}
-            <div className="flex justify-between items-start pb-4">
+            <div className="flex justify-between items-start border-b pb-4">
                 <div>
                     <h1 className="text-3xl font-bold text-gray-800">Lav Kumar Yadav</h1>
                     <p className="text-gray-600">Ghaziabad, Uttar Pradesh</p>
