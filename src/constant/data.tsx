@@ -72,7 +72,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Aspiring Backend Software Developer with hands-on experience building scalable, secure, and reliable applications using Node.js, Express.js, and MongoDB. Skilled in API design, database management, and backend architecture, with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in creating reusable backend modules, integrating real-time communication, and optimizing system performance. Passionate about clean, maintainable code and eager to explore functional programming concepts to develop robust distributed systems.",
+        "Aspiring Data/Product Engineer with a strong foundation in backend development, data structures, and algorithms, aiming to apply programmatic data analysis for large-scale product optimization. Skilled in translating product needs into efficient code, building modular architectures, and leveraging analytical insights to improve user experience. Experienced in working with structured/unstructured data, API-driven systems, and scalable database solutions. Passionate about learning advanced tools like R-programming, DSL-based data pipelines, and integrating behavioral insights into product design for impact at scale.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -166,6 +166,7 @@ export const data: DATA = {
         }
     ]
 };
+
 
 
 
