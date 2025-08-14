@@ -72,7 +72,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Aspiring Frontend Software Developer with hands-on experience in designing and developing scalable, responsive, and user-focused web applications using React.js, Next.js, Tailwind CSS, and ShadCN. Skilled in creating reusable UI components, API integration, and performance optimization. Strong foundation in Data Structures, Algorithms, and Object-Oriented Programming, with 900+ problems solved across competitive programming platforms. Passionate about clean, concise, and maintainable code and eager to explore functional programming concepts to build high-quality, efficient, and secure user interfaces.",
+        "Aspiring Backend Software Developer with hands-on experience building scalable, secure, and reliable applications using Node.js, Express.js, and MongoDB. Skilled in API design, database management, and backend architecture, with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in creating reusable backend modules, integrating real-time communication, and optimizing system performance. Passionate about clean, maintainable code and eager to explore functional programming concepts to develop robust distributed systems.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -102,20 +102,16 @@ export const data: DATA = {
             skills: "JavaScript, TypeScript, C++, Java, Python, SQL"
         },
         {
-            title: "Frontend Development",
-            skills: "React.js, Next.js, Tailwind CSS, ShadCN, Redux Toolkit, HTML, CSS"
-        },
-        {
             title: "Backend Development",
-            skills: "Node.js, Express.js, REST API Integration, MongoDB, MySQL, PostgreSQL"
+            skills: "Node.js, Express.js, REST API Design, MongoDB, MySQL, PostgreSQL"
         },
         {
-            title: "UI/UX Focus",
-            skills: "Reusable UI components, Responsive Design, Accessibility Compliance, Rich Text Editing with Tiptap"
+            title: "Scalable Systems & Tools",
+            skills: "API Development, Modular Backend Architecture, AWS (Academy Certified)"
         },
         {
-            title: "Version Control & Tools",
-            skills: "Git, GitHub, AWS (Academy Certified)"
+            title: "Version Control",
+            skills: "Git, GitHub"
         },
         {
             title: "Core Concepts",
@@ -132,12 +128,11 @@ export const data: DATA = {
             link: "https://writeflow-m57w.onrender.com/",
             time: "12/2024 - Present",
             points: [
-                <>Developed a full-stack blogging platform using <b>Next.js</b> and <b>MongoDB</b> with a responsive UI powered by <b>ShadCN</b> and <b>Tailwind CSS</b>.</>,
-                <>Created reusable UI components for posts, editors, and forms, improving code maintainability.</>,
-                <>Integrated <b>Tiptap</b> for rich text content creation, enabling draft, publish/unpublish, and preview functionality.</>,
-                <>Added server-side pagination and optimized performance and accessibility for a smooth user experience.</>,
-                <>Currently integrating <b>ImageKit</b> for drag-and-drop and paste image uploads.</>,
-                <><b>Tech Stack:</b> Next.js, React.js, ShadCN, Tailwind CSS, Auth.js, Tiptap, MongoDB, ImageKit, Resend</>
+                <>Developed a secure and scalable backend using <b>Next.js API Routes</b> and <b>MongoDB</b> for handling content management workflows.</>,
+                <>Implemented authentication with <b>Auth.js</b> and password reset via Resend, ensuring secure API endpoints and data protection.</>,
+                <>Designed modular backend logic for drafts, publishing, pagination, and media management using <b>ImageKit</b>.</>,
+                <>Optimized database queries for faster response times and better scalability.</>,
+                <><b>Tech Stack:</b> Next.js, Node.js, Auth.js, MongoDB, ImageKit, Resend</>
             ]
         },
         {
@@ -145,10 +140,10 @@ export const data: DATA = {
             link: "https://github.com/lav5588/cypherspeak",
             time: "04/2024 - 06/2024",
             points: [
-                <>Built a responsive real-time chat application with <b>React.js</b> and <b>Node.js</b>, using <b>Socket.IO</b> for WebSocket-based communication.</>,
-                <>Designed reusable chat components, message lists, and user presence indicators.</>,
-                <>Implemented authentication, persistent chat storage in MongoDB, and unread message tracking.</>,
-                <><b>Tech Stack:</b> React.js, Node.js, Express.js, Socket.IO, MongoDB</>
+                <>Built a backend server with <b>Node.js</b> and <b>Express.js</b> handling user authentication, WebSocket connections, and persistent messaging.</>,
+                <>Integrated <b>Socket.IO</b> for real-time message delivery with online/offline presence tracking.</>,
+                <>Used <b>MongoDB</b> for storing chat history, user data, and message metadata.</>,
+                <><b>Tech Stack:</b> Node.js, Express.js, Socket.IO, MongoDB</>
             ]
         }
     ],
@@ -171,6 +166,7 @@ export const data: DATA = {
         }
     ]
 };
+
 
 
 
