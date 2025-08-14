@@ -335,7 +335,7 @@ export const data: DATA = {
             icon: <SiLeetcode size={16} />
         },
     ],
-    ProfilePic: "NITEESH_PROFILE.jpg",
+    ProfilePic: "",
     proffesionalSummary: "Results-driven and detail-oriented Software Engineer with a strong foundation in data structures, algorithms, and object-oriented programming. Proficient in modern programming languages such as C++, Java, and Python, with hands-on experience in developing web applications using HTML, CSS, JavaScript, and React. Adept at problem-solving, optimizing code efficiency, and collaborating in team environments to deliver high-quality software solutions. Passionate about continuous learning and staying updated with emerging technologies to create scalable, efficient, and user-focused applications.",
     educationAndQualification: [
         {
