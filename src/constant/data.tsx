@@ -70,7 +70,7 @@ export const data: DATA = {
             link: "https://lav-kumar-yadav.onrender.com/"
         }
     ],
-    ProfilePic: "LAV PROFILE.jpg",
+    ProfilePic: "",
     proffesionalSummary:
         "Aspiring Frontend Software Developer with hands-on experience in designing and developing scalable, responsive, and user-focused web applications using React.js, Next.js, Tailwind CSS, and ShadCN. Skilled in creating reusable UI components, API integration, and performance optimization. Strong foundation in Data Structures, Algorithms, and Object-Oriented Programming, with 900+ problems solved across competitive programming platforms. Passionate about clean, concise, and maintainable code and eager to explore functional programming concepts to build high-quality, efficient, and secure user interfaces.",
     educationAndQualification: [
