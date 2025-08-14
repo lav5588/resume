@@ -9,9 +9,9 @@ const textSize = "16px"
 const Resume = () => {
     return (
         <div
-        style={{
-            margin:"2rem"
-        }} 
+            style={{
+                margin: "2rem"
+            }}
         >
             <Heading />
 
@@ -21,10 +21,7 @@ const Resume = () => {
             <ProffessionsalSummary />
 
 
-            <SectionHeading
-                heading="Education & Qualifications"
-            />
-            <EducationsAndQualifications />
+
 
             <SectionHeading
                 heading="Technical Skills"
@@ -36,20 +33,27 @@ const Resume = () => {
             />
             <Projects />
 
+            {data.certifications.length > 0 &&
+                <SectionHeading
+                    heading="Certifications"
+                />}
+
+            {data.certifications.length > 0 && <Certifications />}
+
             <SectionHeading
-                heading="Certifications"
+                heading="Education & Qualifications"
             />
-            <Certifications />
+            <EducationsAndQualifications />
         </div>
     )
 }
 
 const Projects = () => {
     return (
-        <div 
+        <div
             style={{
-                fontSize:textSize,
-                textAlign:"justify",
+                fontSize: textSize,
+                textAlign: "justify",
             }}
         >
 
@@ -86,7 +90,7 @@ const Projects = () => {
                                     <div
                                         style={{
                                             width: "30px",
-                                            height:"10px"
+                                            height: "10px"
                                         }}
                                     >
                                         <Dot style={{
@@ -109,10 +113,10 @@ const Projects = () => {
 
 const Certifications = () => {
     return (
-        <div 
+        <div
             style={{
-                fontSize:textSize,
-                textAlign:"justify",
+                fontSize: textSize,
+                textAlign: "justify",
             }}
         >
             {
@@ -126,7 +130,7 @@ const Certifications = () => {
                         <div
                             style={{
                                 width: "30px",
-                                height:"10px"
+                                height: "10px"
                             }}
                         >
                             <Dot style={{
@@ -155,9 +159,9 @@ const TechnicalSkills = () => {
             display: "flex",
             flexDirection: "column",
             gap: "-5px",
-            fontSize:textSize,
-            textAlign:"justify",
-        }} 
+            fontSize: textSize,
+            textAlign: "justify",
+        }}
         >
             {data.technicalSkills.map((skill, index) => (
                 <div key={index}
@@ -168,13 +172,13 @@ const TechnicalSkills = () => {
                     <div
                         style={{
                             width: "30px",
-                            height:"10px"
+                            height: "10px"
                         }}
                     >
                         <Dot style={{
                             color: "rgb(70, 69, 150)",
                         }}
-                        size={24}
+                            size={24}
                         />
                     </div>
                     <div>
@@ -193,7 +197,7 @@ const TechnicalSkills = () => {
 const EducationsAndQualifications = () => {
     return (
         <div style={{
-            fontSize:textSize,
+            fontSize: textSize,
         }}>
             {
                 data.educationAndQualification.map((edu, index) => (
@@ -204,7 +208,7 @@ const EducationsAndQualifications = () => {
                         <div
                             style={{
                                 width: "30px",
-                                height:"10px"
+                                height: "10px"
                             }}
                         >
                             <Dot style={{
@@ -248,9 +252,9 @@ const ProffessionsalSummary = () => {
     return (
         <p
             style={{
-                fontSize:textSize,
-                textAlign:"justify",
-            }} 
+                fontSize: textSize,
+                textAlign: "justify",
+            }}
         >{data.proffesionalSummary}</p>
     )
 }
@@ -301,17 +305,17 @@ const Heading = () => {
             justifyContent: isImage ? "space-between" : "center",
             alignContent: "center",
             gap: "16px",
-            marginBottom:!isImage?"2rem":""
+            marginBottom: !isImage ? "2rem" : ""
         }} >
             <div
                 style={{
-                    display: !isImage ? "flex":"",
+                    display: !isImage ? "flex" : "",
                     flexDirection: "column",
                     gap: "4px",
                     justifyContent: "center",
                     alignItems: "center",
-                    textAlign:!isImage ? "center":"start",
-                    fontSize:textSize,
+                    textAlign: !isImage ? "center" : "start",
+                    fontSize: textSize,
                 }}
             >
                 <h2
