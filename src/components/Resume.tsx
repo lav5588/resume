@@ -20,8 +20,10 @@ const Resume = () => {
             />
             <ProffessionsalSummary />
 
-
-
+            <SectionHeading
+                heading="Education & Qualifications"
+            />
+            <EducationsAndQualifications />
 
             <SectionHeading
                 heading="Technical Skills"
@@ -40,10 +42,7 @@ const Resume = () => {
 
             {data.certifications.length > 0 && <Certifications />}
 
-            <SectionHeading
-                heading="Education & Qualifications"
-            />
-            <EducationsAndQualifications />
+
         </div>
     )
 }
@@ -141,10 +140,10 @@ const Certifications = () => {
                         </div>
                         <div>
                             <span>{cert.title}</span>
-                            <a href={cert.link} style={{
+                            {cert.link !== "" && <a href={cert.link} style={{
                                 marginLeft: "4px",
                                 color: "rgb(70, 69, 150)"
-                            }}>[LINK]</a>
+                            }}>[LINK]</a>}
                         </div>
                     </div>
                 ))
