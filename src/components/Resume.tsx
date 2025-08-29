@@ -20,7 +20,11 @@ const Resume = () => {
             />
             <ProffessionsalSummary />
 
-
+            <SectionHeading
+                heading="Education & Qualifications"
+            />
+            <EducationsAndQualifications />
+            
             <SectionHeading
                 heading="Technical Skills"
             />
@@ -39,10 +43,7 @@ const Resume = () => {
             {data.certifications.length > 0 && <Certifications />}
 
 
-            <SectionHeading
-                heading="Education & Qualifications"
-            />
-            <EducationsAndQualifications />
+            
 
 
 
