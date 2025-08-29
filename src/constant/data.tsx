@@ -72,7 +72,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Aspiring Software Development Trainee with a strong foundation in Object-Oriented Programming, Data Structures, Algorithms, and Database Management. Skilled in building scalable applications using JavaScript, React.js, Node.js, and SQL/MongoDB. Experienced in solving 900+ coding problems across LeetCode, GFG, and CodeChef with strong analytical ability to break down and solve complex problems. Passionate about learning new technologies, collaborating in team environments, and applying structured approaches to contribute effectively to real-world software projects.",
+        "Enthusiastic and motivated Software Developer with hands-on experience in building scalable web applications using the MERN stack. Skilled in React.js, Node.js, Express.js, MongoDB, and JavaScript. Strong problem-solving ability, proactive learner, and eager to contribute to real-time product development. Passionate about writing clean, efficient, and well-documented code while collaborating in agile teams to deliver impactful solutions.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -98,60 +98,64 @@ export const data: DATA = {
     ],
     technicalSkills: [
         {
-            title: "Core Programming & Problem Solving",
-            skills: "C++, Java, Python, JavaScript | Strong OOP concepts, Data Structures and Algorithms"
-        },
-        {
-            title: "Databases",
-            skills: "MySQL, PostgreSQL, MongoDB | Database design and query optimization"
+            title: "Frontend Development",
+            skills: "React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS"
         },
         {
             title: "Backend Development",
-            skills: "Node.js, Express.js, REST APIs"
+            skills: "Node.js, Express.js, RESTful APIs, Authentication & Authorization"
         },
         {
-            title: "Frontend Development",
-            skills: "HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS"
+            title: "Database",
+            skills: "MongoDB, Mongoose ODM, SQL (Basics)"
         },
         {
-            title: "Version Control",
-            skills: "Git, GitHub"
+            title: "Programming",
+            skills: "JavaScript, TypeScript, Data Structures & Algorithms, OOPs"
+        },
+        {
+            title: "Tools & Platforms",
+            skills: "Git, GitHub, VS Code, Postman, Agile Development"
         },
         {
             title: "Analytical Skills",
             skills: "900+ coding problems solved (LeetCode, GFG, CodeChef) | Ratings: LeetCode 1724, CodeChef 1651"
-        }
+        },
+        {
+            title: "Other Skills",
+            skills: "Debugging, Collaboration, Communication"
+        },
     ],
     projects: [
-    {
-        title: "WriteFlow – A Modern Blogging Platform",
-        link: "https://writeflow-m57w.onrender.com/",
-        time: "12/2024 - Present",
-        points: [
-            <>Designed and implemented a full-stack blogging platform enabling users to create, edit, and publish blog posts with secure authentication and authorization workflows.</>,
-            <>Built robust backend APIs in Node.js and integrated MongoDB for efficient storage of posts, users, and comments with optimized query handling.</>,
-            <>Implemented image upload and management using ImageKit, ensuring scalability and performance for media-heavy content.</>,
-            <>Developed a responsive and interactive frontend using Next.js and Tailwind CSS, focusing on seamless navigation and user experience.</>,
-            <>Incorporated email notifications via Resend to enhance user engagement and improve communication workflows.</>,
-            <>Followed modular and OOP-based design patterns to maintain clean code and ensure reusability across the application.</>,
-            <><b>Tech Stack:</b> Next.js, Node.js, MongoDB, Auth.js, ImageKit, Resend</>
-        ]
-    },
-    {
-        title: "Cypher Speak – A Real-Time Chat Platform",
-        link: "https://github.com/lav5588/cypherspeak",
-        time: "04/2024 - 06/2024",
-        points: [
-            <>Developed a real-time chat platform supporting one-to-one messaging with persistent chat history, ensuring reliability and scalability.</>,
-            <>Engineered backend services using Node.js and Express.js, implementing secure authentication and session handling for user accounts.</>,
-            <>Leveraged Socket.IO to enable instant bidirectional communication between clients and servers with minimal latency.</>,
-            <>Integrated MongoDB for structured storage of chat messages and user details, with efficient schema design for faster queries.</>,
-            <>Created a React.js frontend with reusable components and a clean UI for smooth real-time chat interactions.</>,
-            <>Collaborated in a simulated agile team setup, using Git and GitHub for version control, peer reviews, and task management.</>,
-            <><b>Tech Stack:</b> Node.js, Express.js, Socket.IO, React.js, MongoDB</>
-        ]
-    }
-],
+        {
+            title: "WriteFlow – A Modern Blogging Platform",
+            link: "https://writeflow-m57w.onrender.com/",
+            time: "12/2024 - Present",
+            points: [
+                <>Designed and implemented a full-stack blogging platform enabling users to create, edit, and publish blog posts with secure authentication and authorization workflows.</>,
+                <>Built robust backend APIs in Node.js and integrated MongoDB for efficient storage of posts, users, and comments with optimized query handling.</>,
+                <>Implemented image upload and management using ImageKit, ensuring scalability and performance for media-heavy content.</>,
+                <>Developed a responsive and interactive frontend using Next.js and Tailwind CSS, focusing on seamless navigation and user experience.</>,
+                <>Incorporated email notifications via Resend to enhance user engagement and improve communication workflows.</>,
+                <>Followed modular and OOP-based design patterns to maintain clean code and ensure reusability across the application.</>,
+                <><b>Tech Stack:</b> Next.js, Node.js, MongoDB, Auth.js, ImageKit, Resend</>
+            ]
+        },
+        {
+            title: "Cypher Speak – A Real-Time Chat Platform",
+            link: "https://github.com/lav5588/cypherspeak",
+            time: "04/2024 - 06/2024",
+            points: [
+                <>Developed a real-time chat platform supporting one-to-one messaging with persistent chat history, ensuring reliability and scalability.</>,
+                <>Engineered backend services using Node.js and Express.js, implementing secure authentication and session handling for user accounts.</>,
+                <>Leveraged Socket.IO to enable instant bidirectional communication between clients and servers with minimal latency.</>,
+                <>Integrated MongoDB for structured storage of chat messages and user details, with efficient schema design for faster queries.</>,
+                <>Created a React.js frontend with reusable components and a clean UI for smooth real-time chat interactions.</>,
+                <>Collaborated in a simulated agile team setup, using Git and GitHub for version control, peer reviews, and task management.</>,
+                <><b>Tech Stack:</b> Node.js, Express.js, Socket.IO, React.js, MongoDB</>
+            ]
+        }
+    ],
 
     certifications: [
         {
