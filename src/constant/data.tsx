@@ -72,7 +72,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Enthusiastic and motivated Software Developer with hands-on experience in building scalable web applications using the MERN stack. Skilled in React.js, Node.js, Express.js, MongoDB, and JavaScript. Strong problem-solving ability, proactive learner, and eager to contribute to real-time product development. Passionate about writing clean, efficient, and well-documented code while collaborating in agile teams to deliver impactful solutions.",
+        "Computer Science graduate with strong fundamentals in data structures, algorithms, and object-oriented programming. Proficient in JavaScript with hands-on experience in web development using MERN stack, databases, and Git. Quick learner with a passion for solving problems, exploring new technologies, and building scalable software solutions.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -111,7 +111,7 @@ export const data: DATA = {
         },
         {
             title: "Programming",
-            skills: "JavaScript, TypeScript, Data Structures & Algorithms, OOPs"
+            skills: "JavaScript, TypeScript, Java, C/C++, Python, Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Computer Networks, Functional Programming (bonus)"
         },
         {
             title: "Tools & Platforms",
