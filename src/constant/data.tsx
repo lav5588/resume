@@ -111,7 +111,7 @@ export const data: DATA = {
         },
         {
             title: "Programming",
-            skills: "JavaScript, TypeScript, Java, C/C++, Python, Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Computer Networks, Functional Programming (bonus)"
+            skills: "JavaScript, TypeScript, Java, C/C++, Python, Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Computer Networks, Functional Programming"
         },
         {
             title: "Tools & Platforms",
