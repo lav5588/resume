@@ -72,7 +72,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Computer Science graduate with strong fundamentals in data structures, algorithms, and object-oriented programming. Proficient in JavaScript with hands-on experience in web development using MERN stack, databases, and Git. Quick learner with a passion for solving problems, exploring new technologies, and building scalable software solutions.",
+        "Frontend developer with a strong foundation in computer science, data structures, and algorithms, specializing in building reusable, scalable, and high-performance web applications. Proficient in JavaScript, React.js, Next.js, and modern frontend technologies with hands-on experience in developing full-stack applications using the MERN stack. Skilled in writing clean, maintainable code, optimizing UI performance, and collaborating in agile teams. Passionate about solving problems, learning emerging technologies, and contributing to innovative, user-focused solutions.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -99,7 +99,7 @@ export const data: DATA = {
     technicalSkills: [
         {
             title: "Frontend Development",
-            skills: "React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS"
+            skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Responsive Web Design, Tailwind CSS"
         },
         {
             title: "Backend Development",
@@ -111,15 +111,15 @@ export const data: DATA = {
         },
         {
             title: "Programming",
-            skills: "JavaScript, TypeScript, Java, C/C++, Python, Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Computer Networks, Functional Programming"
+            skills: "JavaScript, TypeScript, Data Structures & Algorithms, Object-Oriented Programming (OOP)"
         },
         {
             title: "Tools & Platforms",
-            skills: "Git, GitHub, VS Code, Postman, Agile Development"
+            skills: "Git, GitHub, VS Code, Postman"
         },
         {
             title: "Analytical Skills",
-            skills: "900+ coding problems solved (LeetCode, GFG, CodeChef) | Ratings: LeetCode 1724, CodeChef 1651"
+            skills: "Problem Solving, Highest Ratings: LeetCode 1724, CodeChef 1651"
         },
         {
             title: "Other Skills",
